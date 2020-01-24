@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import ru.novikov.repository.UserDao;
-import ru.novikov.repository.UserDaoImpl;
+import ru.novikov.repository.UserRepository;
+import ru.novikov.repository.UserRepositoryImpl;
 import ru.novikov.service.UserService;
 import ru.novikov.service.UserServiceImpl;
 
@@ -29,8 +29,8 @@ public class SpringConfig {
     }
 
     @Bean
-    public UserDao getUserDao(){
-        return new UserDaoImpl(getJdbcTemplate());
+    public UserRepository getUserDao(){
+        return new UserRepositoryImpl(getJdbcTemplate());
     }
 
     @Bean
