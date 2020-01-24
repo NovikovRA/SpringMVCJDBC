@@ -23,7 +23,7 @@
         <tr>
             <td>${user.name}</td>
             <td>${user.mail}</td>
-            <center><td>${user.age}</td></center>
+            <td>${user.age}</td>
         </tr>
     </c:forEach>
 </table>

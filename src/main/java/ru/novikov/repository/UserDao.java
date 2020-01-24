@@ -1,6 +1,6 @@
-package ru.novikov.dao;
+package ru.novikov.repository;
 
-import ru.novikov.Entity.User;
+import ru.novikov.entity.User;
 
 import java.util.List;
 

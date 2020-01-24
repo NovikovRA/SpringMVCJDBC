@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import ru.novikov.dao.UserDao;
-import ru.novikov.dao.UserDaoImpl;
+import ru.novikov.repository.UserDao;
+import ru.novikov.repository.UserDaoImpl;
 import ru.novikov.service.UserService;
 import ru.novikov.service.UserServiceImpl;
 

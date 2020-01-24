@@ -1,4 +1,4 @@
-package ru.novikov.Entity;
+package ru.novikov.entity;
 
 public class User {
     private int id;
