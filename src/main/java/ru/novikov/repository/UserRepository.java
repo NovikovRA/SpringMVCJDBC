@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface UserRepository {
     List<User> findAll();
-    List<User> findAllWithExtractor();
-    List<User> findAllBestPractice();
-    List<User> findAllLambda();
-    User find(Integer id);
+    User getById(int id);
+    void save(User user);
+    void update(User user);
+    void delete(int id);
 }

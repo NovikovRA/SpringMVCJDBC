@@ -12,6 +12,6 @@
 </head>
 <body>
 <h1>Testing Page</h1>
-<p><a href="http://www.yandex.ru">Поисковая система Яндекс</a></p>
+<p><a href="https://www.google.com/">Поисковая система Гугл</a></p>
 </body>
 </html>

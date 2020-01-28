@@ -11,10 +11,11 @@
     <title>Hello</title>
 </head>
 <body>
-<h1>ZDAROVA EBAT</h1>
+<h1>Welcome</h1>
 <br>
 <a href="hello">Hello page</a>
 <br>
-<a href="users">Users</a>
+<a href="users">Список юзеров</a>
+<a href="addUser">Добавить юзера</a>
 </body>
 </html>

@@ -9,9 +9,29 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService{
     @Autowired
-    public UserRepository userDao;
+    public UserRepository userRepository;
 
     public List<User> findAll() {
-        return userDao.findAll();
+        return userRepository.findAll();
+    }
+
+    @Override
+    public User getById(Integer id) {
+        return userRepository.getById(id);
+    }
+
+    @Override
+    public void save(User user) {
+        userRepository.save(user);
+    }
+
+    @Override
+    public void update(User user) {
+        userRepository.update(user);
+    }
+
+    @Override
+    public void delete(int id) {
+        userRepository.delete(id);
     }
 }

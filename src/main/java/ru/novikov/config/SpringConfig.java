@@ -28,14 +28,6 @@ public class SpringConfig {
         return dataSource;
     }
 
-    @Bean
-    public UserRepository getUserDao(){
-        return new UserRepositoryImpl(getJdbcTemplate());
-    }
 
-    @Bean
-    public UserService getUserService(){
-        return new UserServiceImpl();
-    }
 
 }
