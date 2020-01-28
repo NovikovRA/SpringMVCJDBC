@@ -27,8 +27,7 @@
             <input title="Age" type="text" name="age" value="${user.age}">
             <br>
             <p><input type="submit" value="OK"></p>
-
-
+            <p><input type="button" value="Назад" onClick='location.href="/users"'></p>
         </form>
     </div>
 </center>

@@ -9,9 +9,20 @@
 <html>
 <head>
     <title>Test</title>
+    <style>
+        <%@include file="/WEB-INF/css/styles.css" %>
+    </style>
 </head>
 <body>
-<h1>Testing Page</h1>
-<p><a href="https://www.google.com/">Поисковая система Гугл</a></p>
+<center>
+    <div class="form-style-2">
+        <div class="form-style-2-heading">
+            <center>Test Page</center>
+        </div>
+        <p><input type="button" value="Google" onClick='location.href="https://www.google.com/"'></p>
+            <br>
+        <input type="button" value="Назад" onClick='location.href="/"'>
+    </div>
+</center>
 </body>
 </html>

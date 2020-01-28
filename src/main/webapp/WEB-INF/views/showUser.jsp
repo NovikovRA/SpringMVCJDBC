@@ -9,10 +9,16 @@
 <html>
 <head>
     <title>Info about user</title>
+    <style>
+        <%@include file="/WEB-INF/css/styles.css" %>
+    </style>
 </head>
 <body>
 <center>
-           <center><h2>Info about ${user.name}</h2></center>
+    <div class="form-style-2">
+        <div class="form-style-2-heading">
+            <center>Info about ${user.name}</center>
+        </div>
         <table>
             <tr>
                 <td>Id</td>
@@ -32,7 +38,8 @@
             </tr>
         </table>
         <br>
-        <a href="/users">Back to Users</a>
+        <input type="button" value="Назад" onClick='location.href="/users"'></p>
+    </div>
 </center>
 </body>
 </html>

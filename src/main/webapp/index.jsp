@@ -9,13 +9,23 @@
 <html>
 <head>
     <title>Hello</title>
+    <style>
+        <%@include file="/WEB-INF/css/styles.css" %>
+    </style>
 </head>
 <body>
-<h1>Welcome</h1>
-<br>
-<a href="hello">Hello page</a>
-<br>
-<a href="users">Список юзеров</a>
-<a href="addUser">Добавить юзера</a>
+<center>
+    <div class="form-style-2">
+        <div class="form-style-2-heading">
+            <h2>
+                <center>Welcome</center>
+            </h2>
+        </div>
+        <br>
+        <input type="button" value="Hello Page" onClick='location.href="hello"'></p>
+        <br>
+        <input type="button" value="Список юзеров" onClick='location.href="users"'></p>
+    </div>
+</center>
 </body>
 </html>

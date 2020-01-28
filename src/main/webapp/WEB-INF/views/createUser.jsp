@@ -26,6 +26,8 @@
             <br>
             <p><input type="submit" value="OK"></p>
         </form>
+        <br>
+        <input type="button" value="Назад" onClick='location.href="/users"'>
     </div>
 </center>
 </body>
